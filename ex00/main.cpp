@@ -25,9 +25,9 @@ int main()
     d.push_back(2);
     try
     {
-        std::cout << easyfind(v, 4) << '\n';
-        std::cout << easyfind(l, 3) << '\n';
-        std::cout << easyfind(d, 4) << '\n';
+        std::cout << *easyfind(v, 4) << '\n';
+        std::cout << *easyfind(l, 3) << '\n';
+        std::cout << *easyfind(d, 4) << '\n';
     }
     catch(const std::exception& e)
     {
