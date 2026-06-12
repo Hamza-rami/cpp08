@@ -6,10 +6,10 @@ int main()
 {
     try
     {    
-        Span sp = Span(10000);
+        Span sp = Span(11);
 
-        std::list<int> l;
-        for (int i = 0; i < 10000; i++)
+        std::list<long long> l;
+        for (int i = 0; i < 10; i++)
             l.push_back(i);
 
         sp.addNumbers(l.begin(), l.end());
