@@ -14,9 +14,11 @@ public:
     Span(const Span &other);
     Span &operator=(const Span &other);
     ~Span();
+    
     void addNumber(long long val);
     long long shortestSpan();
     long long longestSpan();
+
     template <typename Iterator>
     void addNumbers(Iterator begin, Iterator end)
     {
@@ -25,6 +27,5 @@ public:
             addNumber(*begin);
             begin++;
         }
-
     }
 };
